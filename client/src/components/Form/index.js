@@ -14,7 +14,6 @@ export function TextArea(props) {
   );
 }
 
-
 export function FormBtn(props) {
   return (
     <div className="input-group-append">
@@ -30,8 +29,6 @@ export function Btn(props) {
     </button>
   )
 }
-
-
 
 
 

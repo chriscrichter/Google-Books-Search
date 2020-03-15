@@ -5,8 +5,6 @@ import { Input, FormBtn, Btn } from "../components/Form";
 import dbAPI from "../utils/dbAPI";
 import googleAPI from "../utils/googleAPI";
 
-
-
 class Books extends Component {
   state = {
     books: [],
@@ -46,7 +44,6 @@ class Books extends Component {
       )
       .catch(err => console.log(err));
   }
-
 
   handleInputChange = event => {
     const { name, value } = event.target;
@@ -111,6 +108,4 @@ class Books extends Component {
   }
 }
 
-
 export default Books;
-
